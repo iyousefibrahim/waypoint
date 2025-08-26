@@ -4,7 +4,7 @@ import styles from "./Logo.module.css";
 function Logo() {
   return (
     <Link>
-      <img src="/logo.png" alt="WayPoint logo" className={styles.logo} />
+      <img src="/icon.png" alt="WayPoint logo" className={styles.logo} />
     </Link>
   );
 }
