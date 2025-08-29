@@ -1,8 +1,24 @@
-# React + Vite
+# WayPoint  
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+An interactive travel app to explore cities around the world.  
+With **WayPoint**, you can drop markers on the map and keep track of places you’ve visited. 
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🚀 Features  
+
+- 🗺️ **Interactive Map** – Built with [React Leaflet](https://react-leaflet.js.org/) and OpenStreetMap.  
+- 📍 **City Markers** – Add cities with their name and emoji flag.  
+- 🔍 **Dynamic Routing** – Uses React Router to navigate between pages and cities.  
+- 🌐 **Persistent State** – Centralized city data using React Context API.  
+- 🔄 **URL-based Map Positioning** – Map centers on the last selected city via query parameters (`?lat=..&lng=..`).  
+
+---
+
+## 🛠️ Tech Stack  
+
+- [React 18]
+- [React Router 6]
+- [React Leaflet]
+- [Vite]
+- CSS Modules  
